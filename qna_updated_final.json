@@ -1,0 +1,167 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","Hey","How are you","Is anyone there?","Hello","Good day"],
+      "responses": ["Hey","Hello, thanks for visiting","Hi there, what can I do for you?","Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+     "tag": "Data Science",
+     "patterns": ["What is Data Science?","Data Science"],
+      "responses":["Data Science is a combination of algorithms, tools, and machine learning technique which helps you to find common hidden patterns from the given raw data."]
+     },
+     {
+      "tag": "Linear Regression",
+      "patterns": ["Linear Regression","What is Linear Regression?", "What are the Assumptions in Linear Regression?","why linear regression is not a very effective algorithm?"],
+      "responses": ["Linear Regression is a mathematical relationship between an independent and dependent variable. The relationship is a direct proportion, relation making it the most simple relationship between the variables.Assumptions of Linear Regression : Y = mX+c,Y – Dependent Variable,X – Independent Variable, m and c are constants"]
+       },
+      {
+       "tag": "Logistic Regression",
+       "patterns": ["Logistic Regression?","What is Logistic Regression?","What is the loss function in LR?","LR"],
+       "responses":["Logistic Regression is the Binary Classification. It is a statistical model that uses the logit function on the top of the probability to give 0 or 1 as a result.The loss function in LR is known as the Log Loss function"]   
+       },
+      {
+       "tag": "KNN Algorithm",
+       "patterns": ["KNN Algorithm?","What is KNN Algorithm?","KNN"],
+       "responses":["KNN(K-nearest neighbours) is a supervised learning and non-parametric algorithm that can be used to solve both classification and regression problem statements.It uses data in which there is a target column present i.e, labelled data to model a function to produce an output for the unseen data. It uses the euclidean distance formula to compute the distance between the data points for classification or prediction"]   
+       },
+       {
+       "tag": "SVM algorithm",
+       "patterns": ["Support Vector Machines algorithm","Discuss Support Vector Machines","what is Support Vector Machines algorithm","SVM"],
+       "responses":["SVM is a supervised machine learning algorithm that works on both classification and regression problem statements.it tries to differentiate data points of different classes by finding a hyperplane that maximizes the margin between the classes in the training data. For classification problem statements, it tries to differentiate data points of different classes by finding a hyperplane that maximizes the margin between the classes in the training data."]   
+       },
+       {
+       "tag": "Decision Tree algorithm",
+       "patterns": ["Decision Tree algorithm","Discuss Decision Tree algorithm","what is Decision Tree algorithm","DT Algorithm"],
+       "responses":["A decision tree is a popular supervised machine learning algorithm. It is mainly used for Regression and Classification. It allows breaks down a dataset into smaller subsets. The decision tree can able to handle both categorical and numerical data."]   
+       },
+       {
+       "tag": "Neural Networks",
+       "patterns": ["Neural Networks","Discuss Neural Networks","What is Neural Networks?","Neural n/w","ANN","NN"],
+       "responses":["Artificial Neural networks (ANN) are a special set of algorithms that have revolutionized machine learning. It helps you to adapt according to changing input. So the network generates the best possible result without redesigning the output criteria."]   
+       },
+       {"tag":"Medicine",
+        "patterns":["Are Neural Networks Helpful In Medicine?","what are the uses of Neural Network in Medical industry"],
+        "responses":["Yes of course…\n\nElectronic noses: ANNs are used experimentally to implement electronic noses. Electronic noses have several potential applications in telemedicine."]
+       },
+       {"tag":"Disadvantages Of Neural Networks",
+        "patterns":["What Are The Disadvantages Of Neural Networks?","What Are The Cons Of Neural Networks?"],
+        "responses":["The major disadvantage is that they require large diversity of training for working in a real environment. Moreover, they are not strong enough to work in the real world."]
+       },
+       {"tag":"Loss Function",
+        "patterns":["What is the use of the loss function?"],
+        "responses":["The loss function is used as a measure of accuracy to see if a neural network has learned accurately from the training data or not."]
+       },
+       {"tag":"forward propagation",
+        "patterns":["What is forward propagation?","What is Definition of Forward Propogation"],
+        "responses":["Forward propagation is the scenario where inputs are passed to the hidden layer with weights. In every single hidden layer."]
+       },
+       {"tag":"back Propogation",
+        "patterns":["What is backpropagation?","What is Definition of back Propogation?"],
+        "responses":["Backprobation is used to minimize the cost function by first seeing how the value changes when weights and biases are tweaked in the neural network. This change is easily calculated by understanding the gradient at every hidden layer. It is called backpropagation as the process begins from the output layer."]
+       },
+       {"tag":"hyperparameters in Neural Network",
+        "patterns":["What are hyperparameters in Neural Network?","What is Definition of hyperparameters?"],
+        "responses":["Hyperparameters are variables used to determine the structure of a neural network. They are also used to understand parameters, such as the learning rate and the number of hidden layers and more, present in the neural network."]
+       },
+       {"tag":"Leaky ReLU function",
+        "patterns":["Why is the Leaky ReLU function used in Neural Network?","What is prons of Leaky ReLU function?"],
+        "responses":["Leaky ReLU, also called LReL, is used to manage a function to allow the passing of small-sized negative values if the input value to the network is less than zero."]
+       },
+       {
+       "tag": "Random Forest",
+       "patterns": ["Random Forest","What is a Random Forest","What is a Random Forest algorithm?","RF"],
+       "responses":["Random forest is a machine learning method which helps you to perform all types of regression and classification tasks. It is also used for treating missing values and outlier values."]   
+       },
+	   { "tag": "Ensemble Learning",
+       "patterns": ["Ensemble Learning","What is Ensemble Learning","Give an overview of Ensemble Learning?"],
+       "responses":["Ensemble Learning is a process of accumulating multiple models to form a better prediction model. In Ensemble Learning the performance of the individual model contributes to the overall development in every step. There are two common techniques in this – Bagging and Boosting."]   
+	   },
+       {
+       "tag": "Deep Learning",
+       "patterns": ["Deep Learning","What is Deep Learning?"],
+       "responses":["Deep Learning is the branch of Machine Learning and AI which tries to achieve better accuracy and able to achieve complex models. Deep Learning models are similar to human brains like structure with input layer, hidden layer, activation function and output layer designed in a fashion to give a human brain like structure."]   
+       },
+       {
+       "tag": " Naive Bayes",
+       "patterns": ["Naive Bayes Classifier","Discuss  Naive Bayes Classifier","What is Naive Bayes Classifier","NB Algorithm"],
+       "responses":["Naive Bayes Classifier algorithm is a probabilistic model. This model works on the Bayes Theorem principle. The accuracy of Naive Bayes can be increased significantly by combining it with other kernel functions for making a perfect Classifier."]   
+       },
+       {
+       "tag": " Reinforcement learning",
+       "patterns": ["Reinforcement learning","Discuss Reinforcement learning","What is Reinforcement learning"],
+       "responses":["Reinforcement Learning is a learning mechanism about how to map situations to actions. The end result should help you to increase the binary reward signal. In this method, a learner is not told which action to take but instead must discover which action offers a maximum reward. As this method based on the reward/penalty mechanism."]   
+       },
+	   {
+       "tag": "Regularization",
+       "patterns": ["Regularization","What do you mean by Regularization?","What are L1 and L2 Regularization?"],
+       "responses":["Regularization is a method to improve your model which is Overfitted by introducing extra terms in the loss function. This helps in making the model performance better for unseen data.L1 and L2 are Regularization Methods "]
+	   },
+       {
+       "tag": "Overfitting and Underfitting",
+       "patterns": ["Overfitting and Underfitting","Discuss Overfitting and Underfitting","What is Overfitting and Underfitting?"],
+       "responses":["In Overfitting the model performs well for the training data, but for any new data it fails to provide output. For Underfitting the model is very simple and not able to identify the correct relationship."]   
+       },
+	   {
+       "tag": " K-means clustering",
+       "patterns": ["K-means clustering method","Discuss K-means clustering","What is K-means clustering method","KMeans"],
+       "responses":["K-means clustering is an important unsupervised learning method. It is the technique of classifying data using a certain set of clusters which is called K clusters. It is used for grouping to find out the similarity in the data"]   
+       },
+	   {
+       "tag": " Stacking",
+       "patterns": ["Stacking","Discuss Stacking","What is Stacking","Stacking Ensemble Technique"],
+       "responses":["Stacking is an ensemble learning technique that uses predictions from multiple base models (for example decision tree, knn or svm) to build a new model(Meta Model)"]   
+       },
+	   {
+       "tag": " Blending",
+       "patterns": ["Blending","Discuss Blending","What is Blending","Blending Ensemble Technique"],
+       "responses":["Blending follows the same approach as stacking but uses only a holdout (validation) set from the train set to make predictions. In other words, unlike stacking, the predictions are made on the holdout set only. The holdout set and the predictions are used to build a model which is run on the test set."]   
+       },
+	   {
+       "tag": " Bagging",
+       "patterns": ["Bagging","Discuss Bagging","What is Bagging","Bagging Ensemble Technique"],
+       "responses":["Bagging (or Bootstrap Aggregating) technique uses these subsets (bags) to get a fair idea of the distribution (complete set). The size of subsets created for bagging may be less than the original set,A base model (weak model) is created on each of these subsets,The models run in parallel and are independent of each other,The final predictions are determined by combining the predictions from all the models"]   
+       },
+	   {
+       "tag": " Boosting",
+       "patterns": ["Boosting","Discuss Boosting","What is Boosting","Boosting Ensemble Technique"],
+       "responses":["Boosting is a sequential process, where each subsequent model attempts to correct the errors of the previous model,The succeeding models are dependent on the previous model,A subset is created from the original dataset,Initially, all data points are given equal weights,A base model is created on this subset,This model is used to make predictions on the whole dataset"]   
+       },
+	   {
+       "tag": " AdaBoost",
+       "patterns": ["AdaBoost","Discuss AdaBoost","What is AdaBoost","AdaBoost Ensemble Technique"],
+       "responses":["Adaptive boosting or AdaBoost is one of the simplest boosting algorithms, AdaBoost assigns weights to the observations which are incorrectly predicted and the subsequent model works to predict these values correctly."]   
+       },
+	   {
+       "tag": " Gradient Boosting",
+       "patterns": ["Gradient Boosting","Discuss Gradient Boosting","What is Gradient Boosting","Gradient Boosting Ensemble Technique","GBM"],
+       "responses":["Gradient Boosting or GBM is another ensemble machine learning algorithm that works for both regression and classification problems. GBM uses the boosting technique, combining a number of weak learners to form a strong learner. Regression trees used as a base learner, each subsequent tree in series is built on the errors calculated by the previous tree."]   
+       },
+	   {
+       "tag": " XGBoost",
+       "patterns": ["XGBoost","Discuss XGBoost","What is XGBoost","XGBoost Ensemble Technique","XGB"],
+       "responses":["XGBoost (extreme Gradient Boosting) is an advanced implementation of the gradient boosting algorithm. XGBoost has proved to be a highly effective ML algorithm, extensively used in machine learning competitions and hackathons. XGBoost has high predictive power and is almost 10 times faster than the other gradient boosting techniques. It also includes a variety of regularization which reduces overfitting and improves overall performance. Hence it is also known as ‘regularized boosting‘ technique"]   
+       },
+	   {
+       "tag": " LightGBM",
+       "patterns": ["LightGBM","Discuss LightGBM","What is LightGBM","LightGBM Ensemble Technique"],
+       "responses":["LightGBM is a gradient boosting framework that uses tree-based algorithms and follows leaf-wise approach while other algorithms work in a level-wise approach pattern.LightGBM beats all the other algorithms when the dataset is extremely large. Compared to the other algorithms, LightGBM takes lesser time to run on a huge dataset."]   
+       },
+	   {
+       "tag": " CatBoost",
+       "patterns": ["CatBoost","Discuss CatBoost","What is CatBoost","CatBoost Ensemble Technique"],
+       "responses":["CatBoost can automatically deal with categorical variables and does not require extensive data preprocessing like other machine learning algorithms.CatBoost algorithm effectively deals with categorical variables. Thus, you should not perform one-hot encoding for categorical variables. Just load the files, impute missing values, and you’re good to go."]   
+       }
+	 ]
+}
+    
